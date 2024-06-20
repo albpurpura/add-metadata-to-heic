@@ -17,12 +17,6 @@ The script converts the image format and organizes the output based on location 
 ## Requirements
 
 - Python 3.x
-- Required Python packages:
-  - pyheif
-  - Pillow (PIL)
-  - tqdm
-  - piexif
-  - geopy
 
 ## Installation
 
