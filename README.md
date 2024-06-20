@@ -2,7 +2,9 @@
 
 ## Overview
 
-This Python script converts HEIC image files to JPG format while preserving and organizing metadata. It's particularly useful for managing large photo collections, especially those exported from Apple devices. The script not only converts the image format but also organizes the output based on location and date information embedded in the metadata.
+This Python script converts HEIC image files to JPG format while preserving and organizing metadata. 
+I use it for managing large photo collections, especially those exported from Apple devices. 
+The script converts the image format and organizes the output based on location and date information embedded in the metadata.
 
 ## Features
 
@@ -11,7 +13,6 @@ This Python script converts HEIC image files to JPG format while preserving and 
 - Organizes output files based on location and date
 - Adds EXIF data to converted images, including geolocation information
 - Sanitizes filenames to ensure compatibility across different systems
-- Provides a progress bar for tracking conversion status
 
 ## Requirements
 
@@ -26,7 +27,7 @@ This Python script converts HEIC image files to JPG format while preserving and 
 ## Installation
 
 1. Clone this repository
-2. Install the required packages: `pip install pyheif Pillow tqdm piexif geopy`
+2. Install the required packages: `pip install -r requirements.txt`
 
 ## Usage
 
